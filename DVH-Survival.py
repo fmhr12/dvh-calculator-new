@@ -256,7 +256,7 @@ def plot_cif_figure_1A():
         hovertemplate="Time: %{x} months<br>CIF: %{y:.3f}<extra></extra>"
     ))
     fig.update_layout(
-        title="Cumulative Incidence Functions by Risk Group",
+        title="Cumulative Incidence Functions by Risk Group in Princess Margaret Cancer Center",
         xaxis_title="Time (months)",
         yaxis_title="Cumulative Incidence",
         hovermode="x unified",
