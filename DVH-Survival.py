@@ -273,7 +273,8 @@ def main():
     st.title("DVH Metrics Calculator & Risk Flag")
 
     st.write(
-        "Upload a CSV or Excel file containing a **cumulative DVH table**. "
+        "Upload a CSV or Excel file containing a **cumulative DVH table** "
+        "Synthetic example data files for both low-risk and high-risk patients are provided in the left sidebar. Users can download these files and upload them to the tool to test its functionality. "
         "The app computes Dcc(Gy), D%(Gy), VGy(cc), and VGy(%) and flags whether the person "
         "is **high-risk** or **low-risk**. "
         "Risk classification is based **only on D10cc (Gy)** with a cut-off of **59.2 Gy**, "
